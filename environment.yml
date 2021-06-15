@@ -1,0 +1,14 @@
+name: gtasks-todoist-sync
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - requests
+  - flask
+  - pip:
+    - todoist-python
+    - google-api-python-client
+    - google-auth 
+    - google-auth-oauthlib 
+    - google-auth-httplib2
